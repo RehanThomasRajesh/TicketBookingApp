@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/backlogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:paddingRight="24dp">
+
+
+        <!-- Email Label -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="131dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/loginpng" />
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="30dp"
+            android:padding="12dp"
+            android:fontFamily="monospace"
+            android:text="Login" />
+
+
+        <TextView
+            android:id="@+id/tvforgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="60dp"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:text="Forgot your Password"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            app:backgroundTint="#673AB7" />
+
+        <TextView
+            android:id="@+id/tvnewuser"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvforgot"
+            android:layout_marginLeft="120dp"
+            android:fontFamily="monospace"
+            android:text="New User?SignUp"
+            android:textSize="15sp"
+            app:backgroundTint="#673AB7" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewall"
+            android:text="View"
+            >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

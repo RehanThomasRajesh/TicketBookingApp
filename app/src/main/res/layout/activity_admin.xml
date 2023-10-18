@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/backlogin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Home"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+    <ImageView
+        android:id="@+id/imgnthg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:id="@+id/adminlogout"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/imgnthg"
+            android:background="@drawable/bg"
+            android:src="@drawable/nthg" />
+    </RelativeLayout>
+    <GridLayout
+        android:id="@+id/adminGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="16dp"
+        android:rowCount="3">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/newbg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_location_on_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Add Place"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/newbg"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_insert_emoticon_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Add Category"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/newbg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_location_city_black_24dp2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Add Theatre"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/newbg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_theaters_black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Add Movie"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/newbg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_supervisor_account_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Manage Theatres"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/newbg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_theaters_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Delete Movie"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </LinearLayout>
+    </GridLayout>
+</LinearLayout>

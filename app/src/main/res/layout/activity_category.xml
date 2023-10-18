@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backlogin"
+    tools:context=".CategoryActivity">
+
+    <EditText
+        android:id="@+id/etCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Category Name"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="34sp"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btnCat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ENTER"
+        android:textSize="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg2"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
